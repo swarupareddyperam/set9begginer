@@ -12,7 +12,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		float l=sc.nextFloat();
 		float b=sc.nextFloat();
-		double d=l*b;
+		float d=l*b;
 		System.out.format("%.5f",d);
 	}
 }
